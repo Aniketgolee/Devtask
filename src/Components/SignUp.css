@@ -1,0 +1,16 @@
+@media screen and (max-width:414px) {
+
+    .sign-container {
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        margin: 20px;
+    }
+
+    h1 {
+        font: normal normal medium 28px/36px Rubik;
+        color: #1D2226;
+        width: 188px;
+    }
+}
