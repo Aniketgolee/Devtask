@@ -1,0 +1,36 @@
+
+
+.sign-container{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    margin:50px;
+    font-family: 'Noto Serif', serif;
+    font-family: 'Rubik', sans-serif;
+}
+.sign-headline{
+    font-size: 28px;
+    color: #1D2226;
+    width: 188px;
+}
+.inputsize{
+    width: 100%;
+}
+.inputclass{
+    margin-bottom: 20px;
+}
+.inputsize {
+    color: #B7B7B8;
+}
+.inputsize {
+    color: #B7B7B8;
+}
+.signin-button{
+    background-color:#CBCBCB;
+    color: #fff;
+    font-weight: bolder;
+    padding: 15px;
+    border-radius: 10px;
+}
+    

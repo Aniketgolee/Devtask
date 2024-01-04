@@ -1,4 +1,3 @@
-@media screen and (max-width:414px) {
 
     .sign-container {
         min-height: 100vh;
@@ -6,11 +5,44 @@
         flex-direction: column;
         justify-content: start;
         margin: 20px;
+        font-family: 'Noto Serif', serif;
+        font-family: 'Rubik', sans-serif;
     }
-
-    h1 {
-        font: normal normal medium 28px/36px Rubik;
+    .sign-heading{
+        font-size:28px;
         color: #1D2226;
         width: 188px;
+        margin-bottom: 30px;
+        font-weight: bold;
     }
-}
+    .inputsize label{
+        font-size: 17px;
+        color: #6C25FF;
+    }
+   span{
+    color: red;
+   }
+    .form-check-inline label{
+        font-size: 20px;
+    }
+    .form-check-inline input:hover{
+        border-color: #6C25FF;
+        background-color: #6C25FF;
+    }
+    .signup-button{
+        background-color: #6C25FF;
+        color: #fff;
+        font-weight: bolder;
+        margin-top: 200px;
+        padding: 15px;
+        border-radius: 10px;
+    }
+    .inputsize{
+        width: 100%;
+    }
+    @media screen and (min-width:430px) {
+        .inputclass{
+            margin-bottom: 20px;
+        }
+        
+    }

@@ -1,0 +1,138 @@
+
+    .account-container {
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        margin: 0px 19px 0px 20px;
+    }
+
+    .header-setting {
+        font-size: 21px;
+        color: #1D2226;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .box-contain {
+        width: 100%;
+        background-color:#faf9f9;
+                
+    }
+    .avatar{
+        vertical-align: middle;
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        position: relative;
+
+    }
+    .icon-background{
+        background-color:#6C25FF;
+        position: absolute;
+        width: 27px;
+        height: 27px;
+        top: 130px;
+        right: 303px;
+        border-radius: 50%;
+    }
+    .icon-image{
+        width: 17px;
+        height: 17px;
+        color: #fff;
+        margin-left: 5px;
+    }
+    .profile-info{
+        display: flex;
+        justify-content: space-evenly;
+        margin-right: 120px;
+    }
+    .avtar-info{
+       margin-left: 20px;
+       color: #1D2226;
+    }
+    .avatar-para{
+        width: 337px;
+        margin-top: 30px;
+        color: #1D2226;
+    }
+    .dashed{
+        border-style: dashed;
+        border-width: 1px;
+    }
+    @media screen and (max-width:375px) {
+        .icon-background{
+            right: 280px;
+        }  
+    }
+    @media screen and (max-width:390px) {
+        .icon-background{
+            right: 285px;
+        }  
+    }
+    @media screen and (min-width:430px) {
+        .icon-background{
+            right: 310px;
+        }  
+    }
+    @media screen and (max-width:360px) {
+        .icon-background{
+            right: 270px;
+        }  
+    }
+    @media screen and (min-width:768px) {
+        .profile-info{
+            display: flex;
+            justify-content: space-evenly;
+            margin-right: 480px;
+        }
+        .icon-background{
+            right: 658px;
+        }
+    }
+    @media screen and (min-width:1258px) {
+        .profile-info{
+            display: flex;
+            justify-content: space-evenly;
+            margin-right: 950px;
+        }
+        .icon-background{
+            right: 1140px;
+        }
+    }
+    @media screen and (min-width:820px) {
+        .icon-background{
+            right: 690px;
+        }
+    }
+    @media screen and (min-width:1024px) {
+        .icon-background{
+            right: 825px;
+        }
+    }
+    @media screen and (min-width:540px) {
+        .icon-background{
+            right: 390px;
+        }
+    }
+    @media screen and (min-width:1280px) {
+        .icon-background{
+            right: 1155px;
+        }
+    }
+    @media screen and (min-width:768px) {
+        .icon-background{
+            right: 655px;
+        }
+    }
+    @media screen and (min-width:820px) {
+        .icon-background{
+            right: 690px;
+        }
+    }
+    @media screen and (min-width:1280px) {
+        .icon-background{
+            right: 1155px;
+        }
+    }
+    
+    

@@ -1,52 +1,88 @@
-@media screen and (max-width: 414px) {
 
-  .container-box{
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: end;
-  }
+.container-box {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  padding-bottom: 50px;
+}
 
+.wrap-box {
+  width: 280px;
+  padding-left: 20px;
+}
+
+.greet-name {
+  color: #1D2226;
+  font-family: 'Noto Serif', serif;
+  font-family: 'Rubik', sans-serif;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.description {
+  font-family: 'Noto Serif', serif;
+  font-family: 'Rubik', sans-serif;
+  font-size: 18px;
+  color: #1D2226;
+  opacity: 0.6;
+}
+
+.create-button {
+  background-color: #CEBAFB;
+  width: 90%;
+  border-radius: 10px;
+  padding: 10px;
+  color: #090808;
+  margin: 8px;
+  border: none;
+  box-shadow: none;
+  cursor: pointer;
+  font-family: 'Noto Serif', serif;
+  font-family: 'Rubik', sans-serif;
+  font-size: 17px;
+}
+
+.button-edit {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.button-1 {
+  background-color: #6C25FF;
+  color: #fff;
+}
+@media screen and (min-width: 430px) {
+  .container-box {
+   padding-bottom: 80px;
+ }
+}
+@media screen and (min-width:768px){
   .wrap-box {
-    width: 280px;
-    padding-left: 20px;
+    width: 350px;
+    padding-left: 35px;
+    margin-bottom:60px;
   }
-
-  h1 {
-    color: #1D2226;
-    font: normal normal medium 28px/17px Rubik;
+  .greet-name{
+    font-size: 40px;
+    margin-left: -6px;
   }
-
-  p {
-    font: normal normal normal 18px/26px Rubik;
-    color: #1D2226;
-    opacity: 0.6;
+  .description{
+    font-size: 20px;
   }
-
-  .create-button {
-    background-color: #CEBAFB;
-    width: 90%;
-    border-radius: 10px;
-    padding: 10px;
-    color: #090808;
-    margin: 8px;
-    border: none;
-    box-shadow: none;
-    cursor: pointer;
-    font: normal normal medium 16px/17px Rubik;
-
+}
+@media screen and (min-width:2500px) {
+  .wrap-box {
+    width: 550px;
+    padding-left: 120px;
   }
-
-  .button-edit {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  .greet-name{
+    font-size: 50px; 
   }
-
-  .button-1 {
-    background-color: #6C25FF;
-    color: #fff;
-
+  .description{
+    font-size: 25px;
   }
+  
 }
